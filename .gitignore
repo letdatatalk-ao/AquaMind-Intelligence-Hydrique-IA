@@ -1,0 +1,33 @@
+﻿# Environnement Python
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (fichiers volumineux)
+data/*.parquet
+data/*.csv
+data/*.db
+data/*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/secrets.toml
