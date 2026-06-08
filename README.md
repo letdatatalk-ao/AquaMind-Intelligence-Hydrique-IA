@@ -109,15 +109,13 @@ AquaMind utilise **CustomerC** comme Gold Standard.
 
 ## Installation et Deploiement
 
-\\\ash
 git clone https://github.com/letdatatalk-ao/-AquaMind-Intelligence-Hydrique-par-IA-Explicable.git
 cd -AquaMind-Intelligence-Hydrique-par-IA-Explicable
 python -m venv venv
 venv\\Scripts\\activate  # Windows
 pip install -r requirements.txt
-\\\
 
-\\\ash
+
 python data_preprocessed/gym_loader.py
 python data_preprocessed/customerA_loader.py
 python data_preprocessed/customerB_loader.py
@@ -125,9 +123,6 @@ python data_preprocessed/customerC_loader.py
 python data_preprocessed/master_fusion.py
 python data_preprocessed/behavior_graph.py
 streamlit run app.py
-\\\
-
----
 
 ## Exemples de Requetes
 
